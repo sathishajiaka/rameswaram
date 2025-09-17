@@ -131,6 +131,22 @@ export default function Home() {
             </div>
           </article>
 
+           {/* Dr. A.P.J. Abdul Kalam Memorial */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="/places/8.png" alt="Dr. A.P.J. Abdul Kalam Memorial" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
+            <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
+            <h3 className="mt-4 font-semibold">Karaiyoor Poomari Amman</h3>
+            <p className="mt-2 text-sm text-slate-700">Tratidional of 80 years.</p>
+            <div className="mt-3 text-xs text-slate-900/80">Closed on select holidays; check timings</div>
+            <div className="mt-4">
+              <a className="text-slate-800 hover:text-black text-sm underline" href="https://maps.app.goo.gl/AQ1zzF8vd5Sy23nXA" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
+          </article>
+
           {/* Dhanushkodi */}
           <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
             <figure className="relative h-40 w-full">
