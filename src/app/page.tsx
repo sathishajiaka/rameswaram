@@ -15,6 +15,7 @@ export default function Home() {
             <a href="#pilgrimage" className="hover:text-amber-600 transition-colors">Pilgrimage</a>
             <a href="#travel" className="hover:text-cyan-700 transition-colors">Plan Trip</a>
             <a href="#places" className="hover:text-rose-700 transition-colors">Places</a>
+            <a href="#map" className="hover:text-indigo-700 transition-colors">Map</a>
           </nav>
         </div>
       </header>
@@ -99,60 +100,135 @@ export default function Home() {
         <p className="mt-2 text-slate-700 max-w-3xl">Explore the spiritual landmarks and scenic marvels that make Rameswaram a unique blend of devotion and nature.</p>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Ramanathaswamy Temple */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=1600&auto=format&fit=crop" alt="Ramanathaswamy Temple corridor" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-amber-600 text-white flex items-center justify-center text-lg">ॐ</div>
             <h3 className="mt-4 font-semibold">Sri Ramanathaswamy Temple</h3>
             <p className="mt-2 text-sm text-slate-700">Famed for its long corridors and sacred 22 theerthams; a key Jyotirlinga shrine dedicated to Lord Shiva.</p>
             <div className="mt-3 text-xs text-amber-900/80">Timing: 5 AM – 1 PM, 3 PM – 9 PM</div>
+            <div className="mt-4">
+              <a className="text-amber-700 hover:text-amber-900 text-sm underline" href="https://maps.google.com/?q=Ramanathaswamy+Temple+Rameswaram" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
 
           {/* Nambunayaki Amman Temple */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1600&auto=format&fit=crop" alt="Nambunayaki Amman Temple" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-rose-600 text-white flex items-center justify-center text-lg">🛕</div>
             <h3 className="mt-4 font-semibold">Nambunayaki Amman Temple</h3>
             <p className="mt-2 text-sm text-slate-700">A revered goddess temple known for blessings of health and prosperity; serene ambience near the coast.</p>
             <div className="mt-3 text-xs text-rose-900/80">Best time: Morning prayers and evenings</div>
+            <div className="mt-4">
+              <a className="text-rose-700 hover:text-rose-900 text-sm underline" href="https://maps.google.com/?q=Nambunayaki+Amman+Temple+Rameswaram" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
 
           {/* Dhanushkodi */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?q=80&w=1600&auto=format&fit=crop" alt="Dhanushkodi beach and ruins" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-cyan-600 text-white flex items-center justify-center text-lg">🌊</div>
             <h3 className="mt-4 font-semibold">Dhanushkodi</h3>
             <p className="mt-2 text-sm text-slate-700">The ‘end of land’ where the Bay of Bengal meets the Indian Ocean; ethereal ruins, blue waters, and windswept sands.</p>
             <div className="mt-3 text-xs text-cyan-900/80">Tip: Visit near sunrise/sunset for magical hues</div>
+            <div className="mt-4">
+              <a className="text-cyan-700 hover:text-cyan-900 text-sm underline" href="https://maps.google.com/?q=Dhanushkodi" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
 
           {/* Pamban Bridge */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1603262110341-82156ff2ee1a?q=80&w=1600&auto=format&fit=crop" alt="Pamban Bridge over the sea" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-indigo-700 text-white flex items-center justify-center text-lg">🌉</div>
             <h3 className="mt-4 font-semibold">Pamban Bridge</h3>
             <p className="mt-2 text-sm text-slate-700">Historic sea bridge with panoramic vistas; watch trains glide over the shimmering waters.</p>
             <div className="mt-3 text-xs text-indigo-900/80">Photography: Golden hour on clear days</div>
+            <div className="mt-4">
+              <a className="text-indigo-700 hover:text-indigo-900 text-sm underline" href="https://maps.google.com/?q=Pamban+Bridge" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
 
           {/* Agni Theertham */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop" alt="Agni Theertham beachfront" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-amber-500 text-white flex items-center justify-center text-lg">🔥</div>
             <h3 className="mt-4 font-semibold">Agni Theertham</h3>
             <p className="mt-2 text-sm text-slate-700">A sacred beachfront for ritual baths before temple darshan; tranquil mornings and soft tides.</p>
             <div className="mt-3 text-xs text-amber-900/80">Carry modest attire; maintain cleanliness</div>
+            <div className="mt-4">
+              <a className="text-amber-700 hover:text-amber-900 text-sm underline" href="https://maps.google.com/?q=Agni+Theertham+Rameswaram" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
 
           {/* Gandhamadhana Parvatham */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1500043357865-c6b8827edfbe?q=80&w=1600&auto=format&fit=crop" alt="Gandhamadhana Parvatham view" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-lg">⛰️</div>
             <h3 className="mt-4 font-semibold">Gandhamadhana Parvatham</h3>
             <p className="mt-2 text-sm text-slate-700">The island’s highest point with a shrine and panoramic views across seas and sands.</p>
             <div className="mt-3 text-xs text-emerald-900/80">Light climb; best in early morning</div>
+            <div className="mt-4">
+              <a className="text-emerald-700 hover:text-emerald-900 text-sm underline" href="https://maps.google.com/?q=Gandhamadhana+Parvatham" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
 
           {/* Dr. A.P.J. Abdul Kalam Memorial */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full">
+              <Image src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop" alt="Dr. A.P.J. Abdul Kalam Memorial" fill className="object-cover" />
+            </figure>
+            <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
             <h3 className="mt-4 font-semibold">Dr. A.P.J. Abdul Kalam Memorial</h3>
             <p className="mt-2 text-sm text-slate-700">A dignified tribute to India’s former President; exhibits on his life and inspiring journey.</p>
             <div className="mt-3 text-xs text-slate-900/80">Closed on select holidays; check timings</div>
+            <div className="mt-4">
+              <a className="text-slate-800 hover:text-black text-sm underline" href="https://maps.google.com/?q=Dr.+A.P.J.+Abdul+Kalam+Memorial+Rameswaram" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            </div>
+            </div>
           </article>
+        </div>
+      </section>
+
+      {/* Map */}
+      <section id="map" className="mx-auto max-w-6xl px-6 pb-12 sm:pb-16">
+        <div className="rounded-3xl border border-white/60 bg-white/70 backdrop-blur p-4 sm:p-6">
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight px-2">Interactive Map</h2>
+          <div className="mt-4 relative w-full overflow-hidden rounded-2xl shadow">
+            <iframe
+              title="Rameswaram Map"
+              className="w-full h-[360px] sm:h-[480px]"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.118019261407!2d79.312!3d9.287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b01b2b1c6ec4e51%3A0x3de5e41f26b2e2ff!2sRameswaram!5e0!3m2!1sen!2sin!4v1700000000000"
+            />
+          </div>
+          <div className="mt-4 px-2">
+            <a href="https://maps.google.com/?q=Rameswaram" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-amber-500 via-rose-500 to-cyan-600 px-5 py-2.5 text-white text-sm font-medium shadow hover:shadow-md">Open in Google Maps</a>
+          </div>
         </div>
       </section>
 
