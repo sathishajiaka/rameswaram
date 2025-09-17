@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full font-sans bg-gradient-to-b from-amber-200 via-rose-100 to-cyan-100 text-slate-900">
+    <div className="min-h-screen w-full font-sans bg-gradient-to-b from-amber-100 via-rose-100 to-cyan-100 text-slate-900">
       {/* JSON-LD structured data */}
       <Script id="ld-json" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify({
