@@ -182,7 +182,7 @@ export default function Home() {
             </figure>
             <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
-            <h3 className="mt-4 font-semibold">Karaiyoor Poomari Amman</h3>
+            <h3 className="mt-4 font-semibold">Karaiyoor Poomari Amman Temple</h3>
             <p className="mt-2 text-sm text-slate-700">Tratidional of 80 years.</p>
             <div className="mt-3 text-xs text-slate-900/80">Closed on select holidays; check timings</div>
             <div className="mt-4">
