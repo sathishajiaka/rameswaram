@@ -14,6 +14,7 @@ export default function Home() {
             <a href="#highlights" className="hover:text-rose-600 transition-colors">Highlights</a>
             <a href="#pilgrimage" className="hover:text-amber-600 transition-colors">Pilgrimage</a>
             <a href="#travel" className="hover:text-cyan-700 transition-colors">Plan Trip</a>
+            <a href="#places" className="hover:text-rose-700 transition-colors">Places</a>
           </nav>
         </div>
       </header>
@@ -89,6 +90,69 @@ export default function Home() {
               <div className="relative h-full w-full flex items-center justify-center text-white font-semibold tracking-wide">Sacred Colors of Rameswaram</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Places to Visit */}
+      <section id="places" className="mx-auto max-w-6xl px-6 py-12 sm:py-16">
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">Places to Visit</h2>
+        <p className="mt-2 text-slate-700 max-w-3xl">Explore the spiritual landmarks and scenic marvels that make Rameswaram a unique blend of devotion and nature.</p>
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Ramanathaswamy Temple */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-amber-600 text-white flex items-center justify-center text-lg">ॐ</div>
+            <h3 className="mt-4 font-semibold">Sri Ramanathaswamy Temple</h3>
+            <p className="mt-2 text-sm text-slate-700">Famed for its long corridors and sacred 22 theerthams; a key Jyotirlinga shrine dedicated to Lord Shiva.</p>
+            <div className="mt-3 text-xs text-amber-900/80">Timing: 5 AM – 1 PM, 3 PM – 9 PM</div>
+          </article>
+
+          {/* Nambunayaki Amman Temple */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-rose-600 text-white flex items-center justify-center text-lg">🛕</div>
+            <h3 className="mt-4 font-semibold">Nambunayaki Amman Temple</h3>
+            <p className="mt-2 text-sm text-slate-700">A revered goddess temple known for blessings of health and prosperity; serene ambience near the coast.</p>
+            <div className="mt-3 text-xs text-rose-900/80">Best time: Morning prayers and evenings</div>
+          </article>
+
+          {/* Dhanushkodi */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-cyan-600 text-white flex items-center justify-center text-lg">🌊</div>
+            <h3 className="mt-4 font-semibold">Dhanushkodi</h3>
+            <p className="mt-2 text-sm text-slate-700">The ‘end of land’ where the Bay of Bengal meets the Indian Ocean; ethereal ruins, blue waters, and windswept sands.</p>
+            <div className="mt-3 text-xs text-cyan-900/80">Tip: Visit near sunrise/sunset for magical hues</div>
+          </article>
+
+          {/* Pamban Bridge */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-indigo-700 text-white flex items-center justify-center text-lg">🌉</div>
+            <h3 className="mt-4 font-semibold">Pamban Bridge</h3>
+            <p className="mt-2 text-sm text-slate-700">Historic sea bridge with panoramic vistas; watch trains glide over the shimmering waters.</p>
+            <div className="mt-3 text-xs text-indigo-900/80">Photography: Golden hour on clear days</div>
+          </article>
+
+          {/* Agni Theertham */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-amber-500 text-white flex items-center justify-center text-lg">🔥</div>
+            <h3 className="mt-4 font-semibold">Agni Theertham</h3>
+            <p className="mt-2 text-sm text-slate-700">A sacred beachfront for ritual baths before temple darshan; tranquil mornings and soft tides.</p>
+            <div className="mt-3 text-xs text-amber-900/80">Carry modest attire; maintain cleanliness</div>
+          </article>
+
+          {/* Gandhamadhana Parvatham */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-lg">⛰️</div>
+            <h3 className="mt-4 font-semibold">Gandhamadhana Parvatham</h3>
+            <p className="mt-2 text-sm text-slate-700">The island’s highest point with a shrine and panoramic views across seas and sands.</p>
+            <div className="mt-3 text-xs text-emerald-900/80">Light climb; best in early morning</div>
+          </article>
+
+          {/* Dr. A.P.J. Abdul Kalam Memorial */}
+          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
+            <h3 className="mt-4 font-semibold">Dr. A.P.J. Abdul Kalam Memorial</h3>
+            <p className="mt-2 text-sm text-slate-700">A dignified tribute to India’s former President; exhibits on his life and inspiring journey.</p>
+            <div className="mt-3 text-xs text-slate-900/80">Closed on select holidays; check timings</div>
+          </article>
         </div>
       </section>
 
