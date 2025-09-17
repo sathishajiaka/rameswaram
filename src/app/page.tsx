@@ -1,8 +1,52 @@
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <div className="min-h-screen w-full font-sans bg-gradient-to-b from-amber-200 via-rose-100 to-cyan-100 text-slate-900">
+      {/* JSON-LD structured data */}
+      <Script id="ld-json" type="application/ld+json" strategy="afterInteractive">
+        {JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'TouristDestination',
+          name: 'Rameswaram',
+          description:
+            'Rameswaram travel guide with temples, beaches, Dhanushkodi, Pamban Bridge and rituals.',
+          url: 'http://localhost:3000/',
+          image: [
+            '/places/1.png',
+            '/places/3.png',
+            '/places/4.png'
+          ],
+          touristType: ['Pilgrimage', 'Beach'],
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 9.287,
+            longitude: 79.312
+          },
+          sameAs: [
+            'https://en.wikipedia.org/wiki/Rameswaram',
+            'https://www.tamilnadutourism.tn.gov.in/destinations/rameswaram'
+          ],
+          hasPart: [
+            {
+              '@type': 'TouristAttraction',
+              name: 'Sri Ramanathaswamy Temple',
+              url: 'https://maps.google.com/?q=Ramanathaswamy+Temple+Rameswaram'
+            },
+            {
+              '@type': 'TouristAttraction',
+              name: 'Dhanushkodi',
+              url: 'https://maps.google.com/?q=Dhanushkodi'
+            },
+            {
+              '@type': 'TouristAttraction',
+              name: 'Pamban Bridge',
+              url: 'https://maps.google.com/?q=Pamban+Bridge'
+            }
+          ]
+        })}
+      </Script>
       {/* Top Nav */}
       <header className="w-full sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/40 bg-white/60 border-b border-white/50">
         <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
