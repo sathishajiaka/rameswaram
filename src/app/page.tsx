@@ -260,7 +260,7 @@ export default function Home() {
       <footer className="px-6 pb-10">
         <div className="mx-auto max-w-6xl rounded-3xl bg-gradient-to-r from-amber-500/10 via-rose-500/10 to-cyan-600/10 border border-white/60 p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-slate-700">© {new Date().getFullYear()} Rameswaram Tourism</p>
+            <p className="text-sm text-slate-700">© {new Date().getFullYear()} Rameswaram</p>
             <div className="flex items-center gap-4 text-sm">
               <a href="#highlights" className="hover:text-rose-600">Highlights</a>
               <a href="#pilgrimage" className="hover:text-amber-600">Pilgrimage</a>
