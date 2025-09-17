@@ -175,10 +175,10 @@ export default function Home() {
             </div>
           </article>
 
-           {/* Dr. A.P.J. Abdul Kalam Memorial */}
+           {/* Karaiyoor poormari amman */}
           <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
             <figure className="relative h-40 w-full">
-              <Image src="/places/8.png" alt="Dr. A.P.J. Abdul Kalam Memorial" fill className="object-cover" />
+              <Image src="/places/8.png" alt="Karaiyoor poormari amman" fill className="object-cover" />
             </figure>
             <div className="p-6">
             <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
