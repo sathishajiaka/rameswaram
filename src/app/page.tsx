@@ -317,11 +317,9 @@ export default function Home() {
       </section>
 
 
-      <section className="h-screen relative flex flex-col items-center justify-start bg-[rgb(3,0,49)] animate-hue">
-        {/* Neon Light */}
-        <div className="light relative w-[90%] md:w-[400px] h-[6px] rounded-full bg-[rgb(172,229,255)] shadow-[0_0_20px_rgb(172,229,255),0_0_40px_rgb(172,229,255)]"></div>
+      <section className="h-screen relative flex flex-col items-center justify-start bg-[rgb(3,0,49)] animate-hue overflow-x-hidden">
+        <div className="light relative max-w-full w-[90%] md:w-[400px] h-[6px] rounded-full bg-[rgb(172,229,255)] shadow-[0_0_20px_rgb(172,229,255),0_0_40px_rgb(172,229,255)]"></div>
 
-        {/* Content */}
         <div className="absolute top-[60%] left-1/2 transform -translate-x-1/2 text-center text-[rgb(172,229,255)] px-4">
           <h2 className="text-xl pb-4 sm:text-2xl md:text-4xl font-bold drop-shadow-[2px_2px_6px_black]">
             Welcome to Rameswaram - A Divine Journey Awaits You! 🌟
