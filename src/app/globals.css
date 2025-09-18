@@ -86,3 +86,19 @@ body {
     rgba(0, 85, 197, 0.534)
   );
 }
+
+
+
+/* styles/glow.css */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4), 0 0 20px rgba(251, 191, 36, 0.3);
+  }
+  50% {
+    box-shadow: 0 6px 20px rgba(251, 191, 36, 0.8), 0 0 40px rgba(251, 191, 36, 0.6);
+  }
+}
+
+.card-glow:hover {
+  animation: glow 1.5s ease-in-out infinite;
+}

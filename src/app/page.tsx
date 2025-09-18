@@ -144,9 +144,9 @@ export default function Home() {
         <p className="mt-2 text-slate-700 max-w-3xl">Explore the spiritual landmarks and scenic marvels that make Rameswaram a unique blend of devotion and nature.</p>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Ramanathaswamy Temple */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/1.png" alt="Ramanathaswamy Temple" fill className="object-cover" priority />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/1.png" alt="Ramanathaswamy Temple" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" priority />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-amber-600 text-white flex items-center justify-center text-lg">ॐ</div>
@@ -160,9 +160,9 @@ export default function Home() {
           </article>
 
           {/* Nambunayaki Amman Temple */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/2.png" alt="Nambunayaki Amman Temple" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/2.png" alt="Nambunayaki Amman Temple" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-rose-600 text-white flex items-center justify-center text-lg">🛕</div>
@@ -176,9 +176,9 @@ export default function Home() {
           </article>
 
           {/* Karaiyoor poormari amman */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/8.png" alt="Karaiyoor poormari amman" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/8.png" alt="Karaiyoor poormari amman" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
@@ -192,9 +192,9 @@ export default function Home() {
           </article>
 
           {/* Dhanushkodi */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/3.png" alt="Dhanushkodi beach and ruins" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/3.png" alt="Dhanushkodi beach and ruins" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-cyan-600 text-white flex items-center justify-center text-lg">🌊</div>
@@ -208,9 +208,9 @@ export default function Home() {
           </article>
 
           {/* Pamban Bridge */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/4.png" alt="Pamban Bridge over the sea" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/4.png" alt="Pamban Bridge over the sea" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-indigo-700 text-white flex items-center justify-center text-lg">🌉</div>
@@ -224,9 +224,9 @@ export default function Home() {
           </article>
 
           {/* Agni Theertham */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/5.png" alt="Agni Theertham beachfront" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/5.png" alt="Agni Theertham beachfront" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-amber-500 text-white flex items-center justify-center text-lg">🔥</div>
@@ -240,9 +240,9 @@ export default function Home() {
           </article>
 
           {/* Gandhamadhana Parvatham */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/6.png" alt="Gandhamadhana Parvatham view" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/6.png" alt="Gandhamadhana Parvatham view" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-lg">⛰️</div>
@@ -256,9 +256,9 @@ export default function Home() {
           </article>
 
           {/* Dr. A.P.J. Abdul Kalam Memorial */}
-          <article className="rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-            <figure className="relative h-40 w-full">
-              <Image src="/places/7.png" alt="Dr. A.P.J. Abdul Kalam Memorial" fill className="object-cover" />
+          <article className="card-glow rounded-2xl bg-white/70 backdrop-blur border border-white/60 p-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+            <figure className="relative h-40 w-full overflow-hidden group">
+              <Image src="/places/7.png" alt="Dr. A.P.J. Abdul Kalam Memorial" fill className="object-cover  transition-transform duration-500 ease-in-out group-hover:scale-105" />
             </figure>
             <div className="p-6">
               <div className="h-10 w-10 rounded-lg bg-slate-800 text-white flex items-center justify-center text-lg">🎖️</div>
